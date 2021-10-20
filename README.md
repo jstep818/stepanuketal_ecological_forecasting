@@ -65,9 +65,9 @@ L1 Data Processing and modeling: Code provided in Environmental covariates were 
 
 ———— FIGURE AND TABLE CREATION ————
 
-Figure 1 - “Fig1.R” for spatial predictions in 1a, globe creation in 1b, and map in 1c. Figure was created and adjusted in Adobe Illustrator (vxxx).
-Figure 2 - “Fig2a2b.R” for the calculation of mean humpback density in each SMA region. Fig2c.R for the demonstration forecast output.
-Table 1 - “Table1.R” for the calculation of all columns of Table 1.
+- Figure 1 - “Fig1.R” for spatial predictions in 1a, globe creation in 1b, and map in 1c. Figure was created and adjusted in Adobe Illustrator (vxxx).
+- Figure 2 - “Fig2a2b.R” for the calculation of mean humpback density in each SMA region. Fig2c.R for the demonstration forecast output.
+- Table 1 - “Table1.R” for the calculation of all columns of Table 1.
 
 
 
