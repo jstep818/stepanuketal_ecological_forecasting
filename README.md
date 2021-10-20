@@ -13,6 +13,7 @@ Constant values:
 First, run 01_stepanuketal_functions.R to load all libraries and functions.
 
 ———— RASTER DATA ————
+
 L0 Data Download:
 
 - Sea Surface Temperature (SST) rasters were downloaded as .tif files in ArcMap using the Marine Geospaital Ecology Toolbox. The dataset was the CMC 0.2 decimal degree daily SST (https://podaac.jpl.nasa.gov/dataset/CMC0.2deg-CMC-L4-GLOB-v2.0 ). Spatial extent was restricted from 20N to 50N and 90W to 50W. All daily SST rasters were projected to the custom projection and resampled to the standard grid.
@@ -41,6 +42,7 @@ L1 Data Processing (R)
 - SST spring transition calculation: see “02_sptr_calc.R” for processing code.
 
 ———— FORECAST DATA ————
+
 L0 - Download SubX Climatology for your given model of interest. For Stepanuk et al. (xxxx), we used the GEFS SubX model (http://iridl.ldeo.columbia.edu/SOURCES/.Models/.SubX/.EMC/.GEFS/.hindcast/.dc9916/)
 
 L0 and L1 - Forecast data are downloaded and downscaled in “03_SubX_download_downscale.R”
@@ -48,11 +50,13 @@ L0 and L1 - Forecast data are downloaded and downscaled in “03_SubX_download_d
 L2 - Calculation of SST spring transition for forecasts/hindcasts in “02_sptr_calc.R”
 
 ———— HUMPBACK WHALE DATA ————
+
 L0 Processed Data Download: Processed data were provided with permission from J. Roberts. For access please contact jason.roberts@duke.edu
 
 L1 Data Processing and modeling: Code provided in Environmental covariates were extracted to the centroid of the 10km line transect segments that contain estimated abundances. This is detailed in “04_mn_GAM_model.R”
 
 ———— HUMPBACK MODEL AND FORECAST INTEGRATION ————
+
 - Model and forecast validation - See Table 1 code “Table1.R”
 
 - Predict GAM on historical and SubX rasters - “05_mn_raster_predict.R”
@@ -60,6 +64,7 @@ L1 Data Processing and modeling: Code provided in Environmental covariates were 
 - Seasonal Management Areas shape file - Downloaded from https://www.fisheries.noaa.gov/inport/item/39986.
 
 ———— FIGURE AND TABLE CREATION ————
+
 Figure 1 - “Fig1.R” for spatial predictions in 1a, globe creation in 1b, and map in 1c. Figure was created and adjusted in Adobe Illustrator (vxxx).
 Figure 2 - “Fig2a2b.R” for the calculation of mean humpback density in each SMA region. Fig2c.R for the demonstration forecast output.
 Table 1 - “Table1.R” for the calculation of all columns of Table 1.
