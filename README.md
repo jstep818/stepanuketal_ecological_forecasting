@@ -4,11 +4,11 @@ Code repo for Stepanuk et al (in review)
 Workflow for Stepanuk et al. (in review) - Subseasonal forecasts provide a powerful tool for dynamic marine mammal management - Frontiers in Ecology and the Environment
 
 Constant values:
-	- ArcMap version (10.5.1)
-	- ArcMap Spatial Analyst Extension 
-	- Marine Geospatial Ecology Toolbox (https://mgel.env.duke.edu/mget/) 
-	- Custom Projection: "+proj=aea +lat_1=27.33333333333333 +lat_2=40.66666666666666 +lat_0=34 +lon_0=-78 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
-	- Standard Grid: A standard 10km grid was created in the custom projection using the fishnet tool in the Data Management toolbox in ArcMap. This is the grid that all environmental covariates were resampled to match.
+- ArcMap version (10.5.1)
+- ArcMap Spatial Analyst Extension 
+- Marine Geospatial Ecology Toolbox (https://mgel.env.duke.edu/mget/) 
+- Custom Projection: "+proj=aea +lat_1=27.33333333333333 +lat_2=40.66666666666666 +lat_0=34 +lon_0=-78 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+- Standard Grid: A standard 10km grid was created in the custom projection using the fishnet tool in the Data Management toolbox in ArcMap. This is the grid that all environmental covariates were resampled to match.
 
 First, run 01_stepanuketal_functions.R to load all libraries and functions.
 
