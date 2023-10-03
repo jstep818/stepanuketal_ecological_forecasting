@@ -1,7 +1,7 @@
 # stepanuketal_ecological_forecasting
-Code repo for Stepanuk et al (in review) 
+Code repo for Stepanuk et al (2022) - https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/fee.2506 
 
-Workflow for Stepanuk et al. (in review) - Subseasonal forecasts provide a powerful tool for dynamic marine mammal management - Frontiers in Ecology and the Environment
+Workflow for Stepanuk et al. (2022) - Subseasonal forecasts provide a powerful tool for dynamic marine mammal management - Frontiers in Ecology and the Environment
 
 Constant values:
 - ArcMap version (10.5.1)
